@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: Arial, sans-serif, sans-serif;
+}
+section{
+    height: 100vh;
+}
+section a{
+    font-size: 72px;
+}
+section h1{
+    margin: 30px;
+    font-size: 48px;
+}
+section p{
+    margin: 20px;
+    font-size: 32px;
+}
+#section-home{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#section-about{
+    background-color: mediumseagreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#section-info{
+    background-color: indianred;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
