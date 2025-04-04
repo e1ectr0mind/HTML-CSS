@@ -1,0 +1,42 @@
+body{
+    margin: 2%;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: darkslateblue;
+    height: 50vh;
+    font-size: 72px;
+    border-radius: 5px;
+    margin: 2%;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 2%;
+    font-size: 68px;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 30%;
+    background-color: darkblue;
+    border-radius: 5px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: darkslateblue;
+    height: 90vh;
+    font-size: 68px;
+    margin: 2%;
+    border-radius: 5px;
+}

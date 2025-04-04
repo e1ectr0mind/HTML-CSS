@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px 10px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.card{
+    width: 200px;
+    height: 200px;
+    background-color: darkgreen;
+    border-radius: 10px;
+    box-sizing: border-box;
+    transition: all 1s;
+    box-shadow: 9px 10px 22px -8px rgba(0,0,0,0.75);
+}
+.card h2{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.card p{
+    font-size: 15px;
+    color: antiquewhite;
+    margin-left: 8px;
+}
+.card:hover{
+    transform: scale(1.15);
+    transition: 1s;
+}
