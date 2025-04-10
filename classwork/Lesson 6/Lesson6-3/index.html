@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        label{
+            display: block;
+            margin-top: 10px;
+
+        }
+        form sup{
+            color: red;
+        }
+        textarea{
+            resize: none;
+            width: 40px;
+        }
+    </style>
+    <title>Lesson 6-5</title>
+</head>
+<body>
+<form class="form-registration">
+    <label for="firstname">Введіть своє ім'я</label>
+    <input type="text" name="name" placeholder="Anna" id="firstname" required><sup>*</sup>
+    <label for="email">Введіть свій email</label>
+    <input type="email" name="email" placeholder="test@test.com" id="email" required><sup>*</sup>
+    <label for="password">Введіть свій пароль</label>
+    <input type="password" name="password" placeholder="qwerty" id="password" required><sup>*</sup>
+    <label for="age">Введіть свій вік</label>
+    <input type="number" name="age" placeholder="60" id="age" required min="18" max="100">
+    <input type="file" name="photo" id="photo" required>
+    <label><input type="radio" name="gender" value="male">Male </label>
+    <label><input type="radio" name="gender" value="female">Female </label>
+    <label>
+        <input type="checkbox" name="newsletter">Підписатись на новини
+    </label>
+    <label for="select-country">Country</label>
+    <select id="select-country">
+        <option value="">Select country</option>
+        <option value="ua">Ukraine</option>
+        <option value="usa">USA</option>
+        <option value="uk">Great Britain</option>
+        <option value="fr">France</option>
+        <option value="de">Germany</option>
+    </select>
+    <label for="phone"></label>
+    <select id="phone">
+        <optgroup label="Apple">
+            <option value="x">IPhone X</option>
+            <option value="xr">IPhone XR</option>
+            <option value="xs">IPhone XS</option>
+        </optgroup>
+        <optgroup label="Samsung">
+            <option value="x">Samsung X</option>
+            <option value="xs">Samsung XS</option>
+            <option value="xr">Samsung XR</option>
+
+        </optgroup>
+    </select>
+    <label for="comment"></label>
+    <textarea id="comment" rows="4" cols="30"></textarea>
+
+
+</form>
+</body>
+</html>

@@ -1,3 +1,7 @@
-*{
 
+button:hover{
+    background-color: yellow;
+}
+button:active{
+    background-color: pink;
 }
