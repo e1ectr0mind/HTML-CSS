@@ -42,10 +42,18 @@ input[type='text'], input[type='password'] {
     height: 30px;
     margin: 15px;
 }
-.form-registration div:nth-child(2){
+.form-registration>form>div{
     width: 300px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 15px;
+}
+form input[type="submit"]{
+    background-color: rgba(0, 139, 139, 0.15);
+    border-radius: 10px;
+    border: 1px solid gray;
+    width: 90px;
+    height: 30px;
 }
 
