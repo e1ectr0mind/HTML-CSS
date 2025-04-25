@@ -56,21 +56,17 @@ h2{
     line-height: normal;
 
 }
-.blue-price{
-    color: #106FDF;
+.price{
     font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
 }
-
-.red-price{
+.blue{
+    color: #106FDF;
+}
+.red{
     color: #DD152D;
-    font-family: 'Inter', sans-serif;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
 }
 
