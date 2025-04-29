@@ -10,6 +10,8 @@ body{
 .login{
     height: 80%;
     border: 1px solid rgba(128, 128, 128, 0.4);
+    padding-top: 10px;
+    border-radius: 3px;
 }
 .login, form{
     width: 100%;
@@ -18,16 +20,23 @@ body{
     align-items: center;
     flex-direction: column;
 }
+form{
+    padding-bottom: 10px;
+}
 .login img{
     width: 80%;
 }
 input[type="text"],
 input[type="password"]{
     width: 78%;
-    padding: 3% 1%;
+    padding: 3% 3%;
     text-overflow: ellipsis;
-    margin-top: 10px;
+    margin-top: 8px;
     box-sizing: border-box;
+    background-color: rgba(211, 211, 211, 0.16);
+    border: 1px solid rgba(128, 128, 128, 0.4);
+    border-radius: 3px;
+
 }
 input[type="submit"]{
     width: 78%;
@@ -36,23 +45,26 @@ input[type="submit"]{
     color: white;
     border-radius: 8px;
     border: none;
-    margin-top: 20px;
+    margin-top: 10px;
+    font-weight: bold;
 }
-form span{
-    margin: 10px 0;
+form span {
+    margin: 15px 0;
     color: gray;
+    font-size: 14px;
+    font-weight: bold;
+
 }
 form p svg{
     margin-bottom: -5px;
 }
-form p{
-    color: #155694;
-    margin: 15px 0;
-}
-form a{
+
+form a, p{
+    font-size: 14px;
     color: #155694;
     text-decoration: none;
-    margin-bottom: 15px;
+    /*margin-bottom: 15px;*/
+    margin: 15px 0;
 }
 /*--------registration ------------*/
 .registration{
@@ -63,6 +75,7 @@ form a{
     justify-content: center;
     align-items: center;
     border: 1px solid rgba(128, 128, 128, 0.4);
+    border-radius: 3px;
 }
 .registration a{
     color: #68b5fa;
